@@ -8,13 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		AA53125C26DF595600447D72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA53125B26DF595600447D72 /* AppDelegate.swift */; };
-		AA53125E26DF595600447D72 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA53125D26DF595600447D72 /* SceneDelegate.swift */; };
-		AA53126026DF595600447D72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA53125F26DF595600447D72 /* ViewController.swift */; };
-		AA53126326DF595600447D72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA53126126DF595600447D72 /* Main.storyboard */; };
 		AA53126526DF595B00447D72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA53126426DF595B00447D72 /* Assets.xcassets */; };
 		AA53126826DF595B00447D72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA53126626DF595B00447D72 /* LaunchScreen.storyboard */; };
 		AA53127326DF595B00447D72 /* FootballFixturesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA53127226DF595B00447D72 /* FootballFixturesTests.swift */; };
 		AA53127E26DF595B00447D72 /* FootballFixturesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA53127D26DF595B00447D72 /* FootballFixturesUITests.swift */; };
+		AA53128D26E0057D00447D72 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA53128C26E0057D00447D72 /* TabBarController.swift */; };
+		AA53129526E00F8A00447D72 /* MatchesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA53129426E00F8A00447D72 /* MatchesController.swift */; };
+		AA53129A26E0107300447D72 /* LeaguesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA53129926E0107300447D72 /* LeaguesController.swift */; };
+		AA53129C26E0239500447D72 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA53129B26E0239500447D72 /* UIView+Layout.swift */; };
+		AA5312A126E0258F00447D72 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5312A026E0258F00447D72 /* BaseController.swift */; };
+		AA5312A326E0A7F800447D72 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5312A226E0A7F800447D72 /* Extensions.swift */; };
+		AA5312A626E0EE4900447D72 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5312A526E0EE4900447D72 /* BaseView.swift */; };
+		AA5312A826E0F11200447D72 /* MatchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5312A726E0F11200447D72 /* MatchesView.swift */; };
+		AA5312AA26E0F25100447D72 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5312A926E0F25100447D72 /* BaseTableViewCell.swift */; };
+		AA5312AD26E0F28800447D72 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5312AC26E0F28800447D72 /* BaseCollectionViewCell.swift */; };
+		AA5312AF26E1172200447D72 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5312AE26E1172200447D72 /* NetworkService.swift */; };
+		AA5312B126E12A5B00447D72 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5312B026E12A5B00447D72 /* Config.swift */; };
+		AA5312B426E12B2E00447D72 /* Matches.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5312B326E12B2E00447D72 /* Matches.swift */; };
+		AA5312B626E12C6E00447D72 /* MatchesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5312B526E12C6E00447D72 /* MatchesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +48,6 @@
 /* Begin PBXFileReference section */
 		AA53125826DF595600447D72 /* FootballFixtures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootballFixtures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA53125B26DF595600447D72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AA53125D26DF595600447D72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AA53125F26DF595600447D72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AA53126226DF595600447D72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA53126426DF595B00447D72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA53126726DF595B00447D72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA53126926DF595B00447D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +57,20 @@
 		AA53127926DF595B00447D72 /* FootballFixturesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FootballFixturesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA53127D26DF595B00447D72 /* FootballFixturesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballFixturesUITests.swift; sourceTree = "<group>"; };
 		AA53127F26DF595B00447D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA53128C26E0057D00447D72 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		AA53129426E00F8A00447D72 /* MatchesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesController.swift; sourceTree = "<group>"; };
+		AA53129926E0107300447D72 /* LeaguesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaguesController.swift; sourceTree = "<group>"; };
+		AA53129B26E0239500447D72 /* UIView+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
+		AA5312A026E0258F00447D72 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		AA5312A226E0A7F800447D72 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AA5312A526E0EE4900447D72 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		AA5312A726E0F11200447D72 /* MatchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesView.swift; sourceTree = "<group>"; };
+		AA5312A926E0F25100447D72 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		AA5312AC26E0F28800447D72 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		AA5312AE26E1172200447D72 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		AA5312B026E12A5B00447D72 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		AA5312B326E12B2E00447D72 /* Matches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matches.swift; sourceTree = "<group>"; };
+		AA5312B526E12C6E00447D72 /* MatchesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +121,16 @@
 		AA53125A26DF595600447D72 /* FootballFixtures */ = {
 			isa = PBXGroup;
 			children = (
+				AA5312A426E0DFCC00447D72 /* NetworkService */,
+				AA53129D26E0255700447D72 /* Shared */,
+				AA53129326E00F5E00447D72 /* Helpers */,
+				AA53128F26E00F1600447D72 /* League */,
+				AA53128E26E00F0600447D72 /* Matches */,
 				AA53125B26DF595600447D72 /* AppDelegate.swift */,
-				AA53125D26DF595600447D72 /* SceneDelegate.swift */,
-				AA53125F26DF595600447D72 /* ViewController.swift */,
-				AA53126126DF595600447D72 /* Main.storyboard */,
 				AA53126426DF595B00447D72 /* Assets.xcassets */,
 				AA53126626DF595B00447D72 /* LaunchScreen.storyboard */,
 				AA53126926DF595B00447D72 /* Info.plist */,
+				AA53128C26E0057D00447D72 /* TabBarController.swift */,
 			);
 			path = FootballFixtures;
 			sourceTree = "<group>";
@@ -126,6 +151,110 @@
 				AA53127F26DF595B00447D72 /* Info.plist */,
 			);
 			path = FootballFixturesUITests;
+			sourceTree = "<group>";
+		};
+		AA53128E26E00F0600447D72 /* Matches */ = {
+			isa = PBXGroup;
+			children = (
+				AA5312B226E12B1800447D72 /* Model */,
+				AA53129026E00F2300447D72 /* ViewModel */,
+				AA53129126E00F3A00447D72 /* Views */,
+				AA53129226E00F4100447D72 /* Controllers */,
+			);
+			path = Matches;
+			sourceTree = "<group>";
+		};
+		AA53128F26E00F1600447D72 /* League */ = {
+			isa = PBXGroup;
+			children = (
+				AA53129826E0104A00447D72 /* ViewModel */,
+				AA53129726E0103200447D72 /* Views */,
+				AA53129626E0101300447D72 /* Controllers */,
+			);
+			path = League;
+			sourceTree = "<group>";
+		};
+		AA53129026E00F2300447D72 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AA5312B526E12C6E00447D72 /* MatchesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AA53129126E00F3A00447D72 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA5312A726E0F11200447D72 /* MatchesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA53129226E00F4100447D72 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AA53129426E00F8A00447D72 /* MatchesController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AA53129326E00F5E00447D72 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AA53129B26E0239500447D72 /* UIView+Layout.swift */,
+				AA5312A226E0A7F800447D72 /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		AA53129626E0101300447D72 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AA53129926E0107300447D72 /* LeaguesController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AA53129726E0103200447D72 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA53129826E0104A00447D72 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AA53129D26E0255700447D72 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AA5312A026E0258F00447D72 /* BaseController.swift */,
+				AA5312A526E0EE4900447D72 /* BaseView.swift */,
+				AA5312A926E0F25100447D72 /* BaseTableViewCell.swift */,
+				AA5312AC26E0F28800447D72 /* BaseCollectionViewCell.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AA5312A426E0DFCC00447D72 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				AA5312AE26E1172200447D72 /* NetworkService.swift */,
+				AA5312B026E12A5B00447D72 /* Config.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		AA5312B226E12B1800447D72 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA5312B326E12B2E00447D72 /* Matches.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +362,6 @@
 			files = (
 				AA53126826DF595B00447D72 /* LaunchScreen.storyboard in Resources */,
 				AA53126526DF595B00447D72 /* Assets.xcassets in Resources */,
-				AA53126326DF595600447D72 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +386,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA53126026DF595600447D72 /* ViewController.swift in Sources */,
+				AA53128D26E0057D00447D72 /* TabBarController.swift in Sources */,
+				AA5312B426E12B2E00447D72 /* Matches.swift in Sources */,
 				AA53125C26DF595600447D72 /* AppDelegate.swift in Sources */,
-				AA53125E26DF595600447D72 /* SceneDelegate.swift in Sources */,
+				AA53129A26E0107300447D72 /* LeaguesController.swift in Sources */,
+				AA53129526E00F8A00447D72 /* MatchesController.swift in Sources */,
+				AA5312AD26E0F28800447D72 /* BaseCollectionViewCell.swift in Sources */,
+				AA5312B626E12C6E00447D72 /* MatchesViewModel.swift in Sources */,
+				AA5312A826E0F11200447D72 /* MatchesView.swift in Sources */,
+				AA5312B126E12A5B00447D72 /* Config.swift in Sources */,
+				AA5312A126E0258F00447D72 /* BaseController.swift in Sources */,
+				AA53129C26E0239500447D72 /* UIView+Layout.swift in Sources */,
+				AA5312A326E0A7F800447D72 /* Extensions.swift in Sources */,
+				AA5312AA26E0F25100447D72 /* BaseTableViewCell.swift in Sources */,
+				AA5312AF26E1172200447D72 /* NetworkService.swift in Sources */,
+				AA5312A626E0EE4900447D72 /* BaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +436,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AA53126126DF595600447D72 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AA53126226DF595600447D72 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AA53126626DF595B00447D72 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -439,6 +571,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4Y4793Y7LL;
 				INFOPLIST_FILE = FootballFixtures/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +591,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4Y4793Y7LL;
 				INFOPLIST_FILE = FootballFixtures/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
