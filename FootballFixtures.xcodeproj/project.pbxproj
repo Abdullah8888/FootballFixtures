@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA235CBE26E45C7A00A8DE89 /* NetworkServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA235CBD26E45C7A00A8DE89 /* NetworkServiceProtocol.swift */; };
+		AA235CC026E4CE6400A8DE89 /* LeaguesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA235CBF26E4CE6400A8DE89 /* LeaguesViewModel.swift */; };
 		AA53125C26DF595600447D72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA53125B26DF595600447D72 /* AppDelegate.swift */; };
 		AA53126526DF595B00447D72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA53126426DF595B00447D72 /* Assets.xcassets */; };
 		AA53126826DF595B00447D72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA53126626DF595B00447D72 /* LaunchScreen.storyboard */; };
@@ -46,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA235CBD26E45C7A00A8DE89 /* NetworkServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceProtocol.swift; sourceTree = "<group>"; };
+		AA235CBF26E4CE6400A8DE89 /* LeaguesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaguesViewModel.swift; sourceTree = "<group>"; };
 		AA53125826DF595600447D72 /* FootballFixtures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootballFixtures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA53125B26DF595600447D72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA53126426DF595B00447D72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -225,6 +229,7 @@
 		AA53129826E0104A00447D72 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				AA235CBF26E4CE6400A8DE89 /* LeaguesViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -245,6 +250,7 @@
 			children = (
 				AA5312AE26E1172200447D72 /* NetworkService.swift */,
 				AA5312B026E12A5B00447D72 /* Config.swift */,
+				AA235CBD26E45C7A00A8DE89 /* NetworkServiceProtocol.swift */,
 			);
 			path = NetworkService;
 			sourceTree = "<group>";
@@ -388,8 +394,10 @@
 			files = (
 				AA53128D26E0057D00447D72 /* TabBarController.swift in Sources */,
 				AA5312B426E12B2E00447D72 /* Matches.swift in Sources */,
+				AA235CC026E4CE6400A8DE89 /* LeaguesViewModel.swift in Sources */,
 				AA53125C26DF595600447D72 /* AppDelegate.swift in Sources */,
 				AA53129A26E0107300447D72 /* LeaguesController.swift in Sources */,
+				AA235CBE26E45C7A00A8DE89 /* NetworkServiceProtocol.swift in Sources */,
 				AA53129526E00F8A00447D72 /* MatchesController.swift in Sources */,
 				AA5312AD26E0F28800447D72 /* BaseCollectionViewCell.swift in Sources */,
 				AA5312B626E12C6E00447D72 /* MatchesViewModel.swift in Sources */,

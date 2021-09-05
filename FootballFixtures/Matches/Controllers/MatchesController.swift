@@ -26,7 +26,6 @@ class MatchesController: BaseController {
         view = mathesView
         //navigationController?.hidesBarsOnSwipe = true
     }
-    
 }
 
 
