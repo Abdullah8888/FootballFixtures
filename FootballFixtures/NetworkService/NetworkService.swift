@@ -25,9 +25,7 @@ class NetworkService {
                 let dataString = String(data: data, encoding: .utf8)
                 print("the res is \(dataString)")
                 if let decodedResponse = try? JSONDecoder().decode(T.self, from: data) {
-                    // we have good data – go back to the main thread
                     DispatchQueue.main.async {
-                        // update our UI
                         if let response = response as? HTTPURLResponse, 200...299 ~= response.statusCode {
                             completion(true, decodedResponse)
                         } else {

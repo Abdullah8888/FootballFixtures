@@ -28,6 +28,7 @@
 		AA5312B126E12A5B00447D72 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5312B026E12A5B00447D72 /* Config.swift */; };
 		AA5312B426E12B2E00447D72 /* Matches.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5312B326E12B2E00447D72 /* Matches.swift */; };
 		AA5312B626E12C6E00447D72 /* MatchesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5312B526E12C6E00447D72 /* MatchesViewModel.swift */; };
+		B8798A8326E5038000824164 /* ModelTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B8798A8126E5038000824164 /* ModelTest.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		AA5312B026E12A5B00447D72 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		AA5312B326E12B2E00447D72 /* Matches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matches.swift; sourceTree = "<group>"; };
 		AA5312B526E12C6E00447D72 /* MatchesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesViewModel.swift; sourceTree = "<group>"; };
+		B8798A8226E5038000824164 /* ModelTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ModelTest.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,6 +253,7 @@
 				AA5312AE26E1172200447D72 /* NetworkService.swift */,
 				AA5312B026E12A5B00447D72 /* Config.swift */,
 				AA235CBD26E45C7A00A8DE89 /* NetworkServiceProtocol.swift */,
+				B8798A8126E5038000824164 /* ModelTest.xcdatamodeld */,
 			);
 			path = NetworkService;
 			sourceTree = "<group>";
@@ -395,6 +398,7 @@
 				AA53128D26E0057D00447D72 /* TabBarController.swift in Sources */,
 				AA5312B426E12B2E00447D72 /* Matches.swift in Sources */,
 				AA235CC026E4CE6400A8DE89 /* LeaguesViewModel.swift in Sources */,
+				B8798A8326E5038000824164 /* ModelTest.xcdatamodeld in Sources */,
 				AA53125C26DF595600447D72 /* AppDelegate.swift in Sources */,
 				AA53129A26E0107300447D72 /* LeaguesController.swift in Sources */,
 				AA235CBE26E45C7A00A8DE89 /* NetworkServiceProtocol.swift in Sources */,
@@ -735,6 +739,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B8798A8126E5038000824164 /* ModelTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B8798A8226E5038000824164 /* ModelTest.xcdatamodel */,
+			);
+			currentVersion = B8798A8226E5038000824164 /* ModelTest.xcdatamodel */;
+			path = ModelTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AA53125026DF595600447D72 /* Project object */;
 }
